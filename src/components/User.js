@@ -8,7 +8,7 @@ class User extends Component {
   }
 
   update () {
-    return true
+    return true // re render true
   }
 
   createElement ({ name }) {
