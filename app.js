@@ -1,10 +1,10 @@
 const choo = require('choo')
 
 // load store
-const store = require('./store/store')
+const store = require('./src/store/store')
 
 // load pages
-const home = require('./pages/home')
+const home = require('./src/pages/home')
 
 // define app
 const app = choo()

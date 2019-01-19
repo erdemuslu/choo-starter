@@ -4,9 +4,9 @@
   "description": "Starter pack for projects coded with choo",
   "main": "index.js",
   "scripts": {
-    "start": "bankai start src/index.js",
-    "build": "bankai build src/index.js",
-    "inspect": "bankai inspect src/index.js"
+    "start": "bankai start app.js",
+    "build": "bankai build app.js",
+    "inspect": "bankai inspect app.js"
   },
   "repository": {
     "type": "git",
