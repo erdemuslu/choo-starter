@@ -1,0 +1,33 @@
+{
+  "name": "choo-starter",
+  "version": "1.0.0",
+  "description": "Starter pack for projects coded with choo",
+  "main": "index.js",
+  "scripts": {
+    "start": "bankai start src/index.js",
+    "build": "bankai build src/index.js",
+    "inspect": "bankai inspect src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erdemuslu/choo-starter.git"
+  },
+  "keywords": [
+    "choo",
+    "choo",
+    "boilerplate",
+    "choo",
+    "starter"
+  ],
+  "author": "Erdem Uslu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erdemuslu/choo-starter/issues"
+  },
+  "homepage": "https://github.com/erdemuslu/choo-starter#readme",
+  "dependencies": {
+    "bankai": "^9.15.0",
+    "choo": "^6.13.1"
+  },
+  "devDependencies": {}
+}
