@@ -4,9 +4,9 @@
   "description": "Starter pack for projects coded with choo",
   "main": "index.js",
   "scripts": {
-    "start": "bankai start app.js",
-    "build": "bankai build app.js",
-    "inspect": "bankai inspect app.js"
+    "start": "parcel serve index.html -d build --port 5000",
+    "watch": "parcel watch index.html -d build",
+    "build": "parcel build index.html -d build --no-cache --no-source-maps"
   },
   "repository": {
     "type": "git",
@@ -26,8 +26,10 @@
   },
   "homepage": "https://github.com/erdemuslu/choo-starter#readme",
   "dependencies": {
-    "bankai": "^9.15.0",
-    "choo": "^6.13.1"
+    "choo": "^6.13.1",
+    "parcel-bundler": "^1.11.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "sass": "^1.16.1"
+  }
 }
