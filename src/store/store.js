@@ -1,4 +1,4 @@
-module.exports = function(state, emitter) {
+module.exports = function (state, emitter) {
   // define store variables
   state.user = {
     name: 'Erdem Uslu'

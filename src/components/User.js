@@ -2,7 +2,7 @@ const html = require('choo/html')
 const Component = require('choo/component')
 
 class User extends Component {
-  constructor() {
+  constructor () {
     super()
     this.name = null
   }
